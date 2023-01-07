@@ -10,13 +10,13 @@
 
 # Framework
 
-Angular CLI: 15.0.4
-Node: 18.12.1
-Package Manager: npm 8.19.2
-OS: win32 x64
+- Angular CLI: 15.0.4
+- Node: 18.12.1
+- Package Manager: npm 8.19.2
+- OS: win32 x64
 
-Boostrap: 5.2.3
-Bootstrap-icons: 1.10.3
+- Boostrap: 5.2.3
+- Bootstrap-icons: 1.10.3
 
 # ToDoListANGULAR
 
