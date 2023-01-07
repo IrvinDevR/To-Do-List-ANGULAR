@@ -1,3 +1,23 @@
+# Process I followed to create a to-do list
+
+1. I created a component to display each task individually. This component has an input property that allows it to receive a task and display its content.
+
+2. I created a component to display a list of tasks. This component has the input property that allows it to receive a list of tasks and display each one using the component created in step 1.
+
+3. I created a component to add new tasks. This component has a form with a text field and an "Add Task" button. By clicking the button, the task is added to the task list.
+
+4. Finally, I added a checkbox to each task and a button to delete the task. Clicking the checkbox marks the task as done and clicking the delete button removes the task from the list.
+
+# Framework
+
+Angular CLI: 15.0.4
+Node: 18.12.1
+Package Manager: npm 8.19.2
+OS: win32 x64
+
+Boostrap: 5.2.3
+Bootstrap-icons: 1.10.3
+
 # ToDoListANGULAR
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
