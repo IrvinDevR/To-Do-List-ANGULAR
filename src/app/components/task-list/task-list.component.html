@@ -1,0 +1,5 @@
+<!-- task-list.component.html -->
+
+<div class="rounded mt-2 col-12" *ngFor="let task of tasks">
+  <app-task [task]="task" (taskRemoved)="removeTask(task)"></app-task>
+</div>

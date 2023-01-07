@@ -1,0 +1,10 @@
+<!-- task.component.html -->
+
+<div class="card mb-3">
+  <div class="card-body">
+    <input type="checkbox" name="check" id="checkList">
+    <h5 class="card-title">{{ task.title }}</h5>
+    <p> {{ task.description }} </p>
+    <button class="btn btn-danger" (click)="removeTask()"><i class="bi bi-trash3"></i> Borrar</button>
+  </div>
+</div>
